@@ -1,7 +1,5 @@
 # SQL
 <BR>
-  
-  ## TIL(Today I Learned)
-  
-## ORACLE
-## MySQL
+
+- [MySQL](https://github.com/seunghyunshin111/SQL/tree/master/MySQL)
+
