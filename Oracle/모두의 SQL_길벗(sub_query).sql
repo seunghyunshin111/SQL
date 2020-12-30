@@ -1,10 +1,3 @@
--- 연결 연산자 |
+-- sub query 
 
-select employee_id, first_name||last_name
-from employees;
-
-select employee_id,
-	first_name || ' ' || last_name,
-	email || '@' || 'company.com'
-from employees;
-
+-- 단일행 서브쿼리
