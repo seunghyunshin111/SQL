@@ -11,3 +11,10 @@ select COUNT(*) 조인된 건수
 from employees A, departments B
 where A.department_id = B.department_id;
 
+
+-- 데이터가 부족한 테이블에 (+) 삽입
+-- null 값 생성
+select A.employee_id, A.first_name, A.last_name, B.department_id, B.department_name
+from employees A, departments B
+where A.department_id = B.department_id(+)
+order by A.employee_id; 
