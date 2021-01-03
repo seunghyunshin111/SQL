@@ -19,3 +19,22 @@ from employees
 union all
 select department_id
 from departements;
+
+
+-- intersect
+-- 교집합 / **양쪽 select문 결과에 존재하는** 데이터만 출력
+select department_id
+from employees
+intersect
+select department_id
+from departements
+order by department_id;
+
+
+-- minus
+-- 차집합
+select department_id
+from employees
+minus
+select department_id
+from departements;
